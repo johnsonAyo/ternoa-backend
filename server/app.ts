@@ -35,10 +35,7 @@ app.use(express.json({ limit: "10kb" }));
 app.use(express.urlencoded({ extended: true, limit: "10kb" }));
 app.use(cookieParser());
 
-const DB = (process.env.DATABASE as string).replace(
-  "<PASSWORD>",
-  process.env.DATABASE_PASSWORD as string
-);
+const DB = process.env.DATABASE as string;
 
 mongoose
   .connect(DB, {
