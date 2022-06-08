@@ -1,5 +1,5 @@
 # Ternoa
-Backend repository for Ternoa Markrtplace
+Backend repository for Ternoa Marketplace
 
 <br />
 <br />
