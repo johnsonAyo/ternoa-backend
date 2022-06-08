@@ -27,6 +27,7 @@ const updateOne = (Model: any) =>
   catchAsync(async (req: Request, res: Response, next: NextFunction) => {
     const doc = await Model.findByIdAndUpdate(req.params.id, req.body, {
       new: true,
+      runValidators: true,
     });
 
     if (!doc || doc.length === 0) {
