@@ -1,4 +1,4 @@
-# Gofer
+# Ternoa
 Backend repository for gofer project
 
 <br />
@@ -16,7 +16,7 @@ Backend repository for gofer project
 
 ## Installation
 1. Install [`Node JS`](https://nodejs.org/en/).
-2. To clone, run `git clone https://github.com/johnsonAyo/Gofer-backend.git`.
+2. To clone, run `git clone https://github.com/johnsonAyo/ternoa-backend.git`.
 3. `cd` into the root of the **project directory**.
 4. Run `npm install` on the terminal to install dependecies.
 
