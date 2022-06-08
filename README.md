@@ -1,5 +1,5 @@
 # Ternoa
-Backend repository for gofer project
+Backend repository for Ternoa Markrtplace
 
 <br />
 <br />
